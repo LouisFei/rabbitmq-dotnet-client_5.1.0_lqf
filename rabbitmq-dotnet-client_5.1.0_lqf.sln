@@ -1,0 +1,146 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.Client-5.1.0", "RabbitMQ.Client\RabbitMQ.Client-5.1.0.csproj", "{5B6A057F-4892-43E4-B421-4239014A61CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ.Tutorials", "RabbitMQ.Tutorials", "{DA0CB054-8549-40A8-AE64-27B406AF8379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Hello World!", "1 Hello World!", "{AC12F702-2FC6-42AB-859F-79C061609D7A}"
+	ProjectSection(SolutionItems) = preProject
+		RabbitMQ.Tutorials\1 Hello World!\readme.txt = RabbitMQ.Tutorials\1 Hello World!\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Work queues", "2 Work queues", "{83D751E0-0D5E-4ADF-87E8-1C5FEA0755FA}"
+	ProjectSection(SolutionItems) = preProject
+		RabbitMQ.Tutorials\2 Work queues\readme.txt = RabbitMQ.Tutorials\2 Work queues\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Publish,Subscribe", "3 Publish,Subscribe", "{471A2E2C-E424-4321-9429-ACE8A88F0499}"
+	ProjectSection(SolutionItems) = preProject
+		RabbitMQ.Tutorials\3 Publish,Subscribe\readme.txt = RabbitMQ.Tutorials\3 Publish,Subscribe\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Routing", "4 Routing", "{45ED74A7-DC12-4778-83D6-A2A1DA248ED6}"
+	ProjectSection(SolutionItems) = preProject
+		RabbitMQ.Tutorials\4 Routing\readme.txt = RabbitMQ.Tutorials\4 Routing\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Topics", "5 Topics", "{BDDFFA59-5EB3-447B-98CB-CC1D8600F1E7}"
+	ProjectSection(SolutionItems) = preProject
+		RabbitMQ.Tutorials\5 Topics\readme.txt = RabbitMQ.Tutorials\5 Topics\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 RPC", "6 RPC", "{A8A34A53-90D2-49A5-A9B2-837D0EAFF628}"
+	ProjectSection(SolutionItems) = preProject
+		RabbitMQ.Tutorials\6 RPC\readme.txt = RabbitMQ.Tutorials\6 RPC\readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveApp", "RabbitMQ.Tutorials\1 Hello World!\ReceiveApp\ReceiveApp.csproj", "{A01CFD00-B7D2-407E-82D1-BB0CA53B293D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendApp", "RabbitMQ.Tutorials\1 Hello World!\SendApp\SendApp.csproj", "{16A3B0DB-EC1E-46A9-9276-43B5C6DACF3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTaskApp", "RabbitMQ.Tutorials\2 Work queues\NewTaskApp\NewTaskApp.csproj", "{A79B0B75-CB8B-4084-862E-317D4983DE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerApp", "RabbitMQ.Tutorials\2 Work queues\WorkerApp\WorkerApp.csproj", "{CBB1BAFD-8449-4FDF-9CAD-6B4504EB8AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogApp", "RabbitMQ.Tutorials\3 Publish,Subscribe\EmitLogApp\EmitLogApp.csproj", "{D532FA60-70FF-4BDE-86A8-3B1B95DBD4D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsApp", "RabbitMQ.Tutorials\3 Publish,Subscribe\ReceiveLogsApp\ReceiveLogsApp.csproj", "{7B4DEE17-9DF6-45B9-A68E-8492DEB072C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogDirectApp", "RabbitMQ.Tutorials\4 Routing\EmitLogDirectApp\EmitLogDirectApp.csproj", "{5BEF0D17-54A0-44A9-8E7A-CF025750DD5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsDirectApp", "RabbitMQ.Tutorials\4 Routing\ReceiveLogsDirectApp\ReceiveLogsDirectApp.csproj", "{B9331B49-D1F2-4783-BDAD-89B97924AF24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogTopicApp", "RabbitMQ.Tutorials\5 Topics\EmitLogTopicApp\EmitLogTopicApp.csproj", "{BC117ED0-E15B-4A74-9281-698BF039E12F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogsTopicApp", "RabbitMQ.Tutorials\5 Topics\ReceiveLogsTopicApp\ReceiveLogsTopicApp.csproj", "{B7D1A6B0-5366-4D7B-B40E-8E4D42431251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpcClientApp", "RabbitMQ.Tutorials\6 RPC\RpcClientApp\RpcClientApp.csproj", "{E4DAF6E8-9D54-4174-94A3-4D76A950ECAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCServerApp", "RabbitMQ.Tutorials\6 RPC\RPCServerApp\RPCServerApp.csproj", "{280959C2-ED69-4A3A-B600-DC2C74AE9279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B6A057F-4892-43E4-B421-4239014A61CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6A057F-4892-43E4-B421-4239014A61CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6A057F-4892-43E4-B421-4239014A61CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6A057F-4892-43E4-B421-4239014A61CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01CFD00-B7D2-407E-82D1-BB0CA53B293D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01CFD00-B7D2-407E-82D1-BB0CA53B293D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01CFD00-B7D2-407E-82D1-BB0CA53B293D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01CFD00-B7D2-407E-82D1-BB0CA53B293D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A3B0DB-EC1E-46A9-9276-43B5C6DACF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A3B0DB-EC1E-46A9-9276-43B5C6DACF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A3B0DB-EC1E-46A9-9276-43B5C6DACF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A3B0DB-EC1E-46A9-9276-43B5C6DACF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79B0B75-CB8B-4084-862E-317D4983DE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79B0B75-CB8B-4084-862E-317D4983DE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79B0B75-CB8B-4084-862E-317D4983DE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79B0B75-CB8B-4084-862E-317D4983DE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB1BAFD-8449-4FDF-9CAD-6B4504EB8AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB1BAFD-8449-4FDF-9CAD-6B4504EB8AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB1BAFD-8449-4FDF-9CAD-6B4504EB8AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB1BAFD-8449-4FDF-9CAD-6B4504EB8AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D532FA60-70FF-4BDE-86A8-3B1B95DBD4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D532FA60-70FF-4BDE-86A8-3B1B95DBD4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D532FA60-70FF-4BDE-86A8-3B1B95DBD4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D532FA60-70FF-4BDE-86A8-3B1B95DBD4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4DEE17-9DF6-45B9-A68E-8492DEB072C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4DEE17-9DF6-45B9-A68E-8492DEB072C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4DEE17-9DF6-45B9-A68E-8492DEB072C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4DEE17-9DF6-45B9-A68E-8492DEB072C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BEF0D17-54A0-44A9-8E7A-CF025750DD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BEF0D17-54A0-44A9-8E7A-CF025750DD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BEF0D17-54A0-44A9-8E7A-CF025750DD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BEF0D17-54A0-44A9-8E7A-CF025750DD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9331B49-D1F2-4783-BDAD-89B97924AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9331B49-D1F2-4783-BDAD-89B97924AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9331B49-D1F2-4783-BDAD-89B97924AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9331B49-D1F2-4783-BDAD-89B97924AF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC117ED0-E15B-4A74-9281-698BF039E12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC117ED0-E15B-4A74-9281-698BF039E12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC117ED0-E15B-4A74-9281-698BF039E12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC117ED0-E15B-4A74-9281-698BF039E12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D1A6B0-5366-4D7B-B40E-8E4D42431251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D1A6B0-5366-4D7B-B40E-8E4D42431251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D1A6B0-5366-4D7B-B40E-8E4D42431251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D1A6B0-5366-4D7B-B40E-8E4D42431251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DAF6E8-9D54-4174-94A3-4D76A950ECAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DAF6E8-9D54-4174-94A3-4D76A950ECAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DAF6E8-9D54-4174-94A3-4D76A950ECAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DAF6E8-9D54-4174-94A3-4D76A950ECAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280959C2-ED69-4A3A-B600-DC2C74AE9279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280959C2-ED69-4A3A-B600-DC2C74AE9279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280959C2-ED69-4A3A-B600-DC2C74AE9279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280959C2-ED69-4A3A-B600-DC2C74AE9279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC12F702-2FC6-42AB-859F-79C061609D7A} = {DA0CB054-8549-40A8-AE64-27B406AF8379}
+		{83D751E0-0D5E-4ADF-87E8-1C5FEA0755FA} = {DA0CB054-8549-40A8-AE64-27B406AF8379}
+		{471A2E2C-E424-4321-9429-ACE8A88F0499} = {DA0CB054-8549-40A8-AE64-27B406AF8379}
+		{45ED74A7-DC12-4778-83D6-A2A1DA248ED6} = {DA0CB054-8549-40A8-AE64-27B406AF8379}
+		{BDDFFA59-5EB3-447B-98CB-CC1D8600F1E7} = {DA0CB054-8549-40A8-AE64-27B406AF8379}
+		{A8A34A53-90D2-49A5-A9B2-837D0EAFF628} = {DA0CB054-8549-40A8-AE64-27B406AF8379}
+		{A01CFD00-B7D2-407E-82D1-BB0CA53B293D} = {AC12F702-2FC6-42AB-859F-79C061609D7A}
+		{16A3B0DB-EC1E-46A9-9276-43B5C6DACF3A} = {AC12F702-2FC6-42AB-859F-79C061609D7A}
+		{A79B0B75-CB8B-4084-862E-317D4983DE82} = {83D751E0-0D5E-4ADF-87E8-1C5FEA0755FA}
+		{CBB1BAFD-8449-4FDF-9CAD-6B4504EB8AF8} = {83D751E0-0D5E-4ADF-87E8-1C5FEA0755FA}
+		{D532FA60-70FF-4BDE-86A8-3B1B95DBD4D3} = {471A2E2C-E424-4321-9429-ACE8A88F0499}
+		{7B4DEE17-9DF6-45B9-A68E-8492DEB072C7} = {471A2E2C-E424-4321-9429-ACE8A88F0499}
+		{5BEF0D17-54A0-44A9-8E7A-CF025750DD5F} = {45ED74A7-DC12-4778-83D6-A2A1DA248ED6}
+		{B9331B49-D1F2-4783-BDAD-89B97924AF24} = {45ED74A7-DC12-4778-83D6-A2A1DA248ED6}
+		{BC117ED0-E15B-4A74-9281-698BF039E12F} = {BDDFFA59-5EB3-447B-98CB-CC1D8600F1E7}
+		{B7D1A6B0-5366-4D7B-B40E-8E4D42431251} = {BDDFFA59-5EB3-447B-98CB-CC1D8600F1E7}
+		{E4DAF6E8-9D54-4174-94A3-4D76A950ECAB} = {A8A34A53-90D2-49A5-A9B2-837D0EAFF628}
+		{280959C2-ED69-4A3A-B600-DC2C74AE9279} = {A8A34A53-90D2-49A5-A9B2-837D0EAFF628}
+	EndGlobalSection
+EndGlobal
